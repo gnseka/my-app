@@ -1,0 +1,21 @@
+.bgColor {
+  background-color: rgb(43, 49, 72);
+  color: white;
+  max-width: 100%;
+  padding: 2%;
+}
+
+.cardBg {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.cardContainer {
+  display: flex;
+      flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
