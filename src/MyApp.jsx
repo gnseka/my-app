@@ -6,6 +6,8 @@ import Premier from "./Premier/index";
 import Counter from "./Counter";
 import Weather from "./Weather/Weather";
 import Photo from "./Photo/Photo";
+import MyTimer from "./MyTimer";
+import Form from "./LoginForm/Form.jsx";
 
 export default function MyApp(params) {
   return (
@@ -15,9 +17,11 @@ export default function MyApp(params) {
       <Recommend />
       <BestEvents />
       <Premier />
+      <Form />
       <Counter />
       <Weather />
-      <Photo />
+      {/* <Photo /> */}
+      {/* <MyTimer /> */}
     </>
   );
 }
